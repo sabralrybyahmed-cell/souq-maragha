@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سوق المراغة</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #fff8ef;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6a00, #ff9900);
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 0 0 30px 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  color: #ff6a00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 38px;
+  font-weight: bold;
+  border: 5px solid #ffd700;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+.container {
+  padding: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.welcome {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  margin-top: 20px;
+  box-shadow: 0 3px 12px #00000010;
+}
+
+h2 {
+  color: #ff6a00;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 14px;
+  padding: 16px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ff6a00;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e85f00;
+}
+
+.info {
+  background: white;
+  padding: 18px;
+  margin-top: 18px;
+  border-radius: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">سوق</div>
+  <h1>سوق المراغة</h1>
+  <p>كل اللي محتاجه من سوق بلدك</p>
+</header>
+
+<main class="container">
+
+  <section class="welcome">
+    <h2>أهلاً بيك في سوق المراغة ❤️</h2>
+    <p>اطلب احتياجاتك من المحلات وخدمات التوصيل في المراغة.</p>
+
+    <div class="actions">
+      <button onclick="alert('هنجهز قسم المحلات في الدرس القادم')">
+        🏪 المحلات
+      </button>
+
+      <button onclick="alert('هنجهز طلب التوصيل في الدرس القادم')">
+        🛵 اطلب توصيل
+      </button>
+
+      <button onclick="alert('هنجهز تسجيل العملاء قريباً')">
+        👤 حساب العميل
+      </button>
+
+      <button onclick="alert('هنجهز تسجيل المندوبين قريباً')">
+        🚴 حساب المندوب
+      </button>
+    </div>
+  </section>
+
+  <section class="info">
+    <h2>خدماتنا</h2>
+    <p>🛒 التسوق من المحلات</p>
+    <p>🛵 توصيل الطلبات</p>
+    <p>📦 متابعة الطلب</p>
+    <p>📞 التواصل مع خدمة العملاء</p>
+  </section>
+
+</main>
+
+<footer>
+  جميع الحقوق محفوظة © سوق المراغة
+</footer>
+
+</body>
+</html>
